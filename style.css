@@ -1,11 +1,99 @@
-body {
-	background-color: #ABBAEA;
+/* importa a fonte */
+@font-face {
+	font-family:'nome principal' ;
+	src: url('fonts/Saudagar.ttf')format('truetype');
+	font-weight: lighter;
+	font-style: normal;
 }
-div {
-	height: 200px;
-	margin: 20px;
-	border: 5px solid;
-	background-color: #FBD603;
+
+
+#nome {
+	font-family: 'nome principal';
+	color: rgb(131, 108, 108);
+	height: 70px;
+	font-size: 150%;
+	border: 2px solid #f6b8b8;
+	border-radius: 25px;
+  	padding-bottom: 40px;
+	padding-inline: 200px;
+  	margin: 10px;
+	background-color: azure;
+	/*background-image: linear-gradient(to right, rgba(239, 174, 225, 0.507) , rgba(84, 223, 248, 0.721));*/
 }
-h1 {color:white}
-p {color:gray}
+h2, p{
+	font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+	color: rgb(131, 108, 108);
+	text-align: justify;
+}
+.container {
+	
+ 	padding-top: 100%;
+
+}
+ul {
+	/*list-style-type: none;*/
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	background-color: #f1f1f1;
+	height: 100%; 
+	position:; 
+	display: inline;	
+}
+li {
+	display: inline;
+	float:inline-start;
+	padding: 40px;
+}
+li a {
+	display: inline;
+	color: rgb(131, 108, 108);
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: #f6b8b8;
+  }
+body{
+	margin: o;
+	text-align: center;
+	display:flex
+	text-align: center;
+	
+}
+iframe{
+	width: 600px;
+	height: 500px;
+	border: none;
+	position: static;
+	left: 150px;
+
+}
+img {
+	display: block;
+	position:static;
+	margin-left:0%;
+	margin-right: auto;
+	width: 300px;;
+	border-radius: 8px;
+	left: 25px;
+}
+#menu {
+	text-align: center;
+	align-items: center;
+	display: inline-flex;
+}
+footer{
+	position:fixed;
+	display: inline-flex;
+	height: 100px;
+	align-items:flex-end;
+	margin: top 30px;
+	margin-bottom: 0%;
+	margin-block: 0%;
+	background-color: #f1f1f1;
+	
+}
+
